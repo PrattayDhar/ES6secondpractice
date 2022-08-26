@@ -43,3 +43,27 @@ const makedbl2= numbers.map(x=>x*2);
 // console.log(makedbl2);
 const fivetimes =[1,2,3,4,5].map(x=>x*3);
 // console.log(fivetimes);
+
+// 31 - 4 Map string array, array of objects map, foreach
+
+const objecttypearry = [
+    {id :21, name: 'hasan', job:'ghum'},
+    {id :21, name: 'mim', job:'ghum'},
+    {id :21, name: 'shihi', job:'ghum'},
+];
+const items = objecttypearry.map(ob=>ob.name);
+// console.log(items);
+ 
+// Foreach also work like map but its not give return///***/
+
+// mplement filter, find on an array of objects
+
+const numb = [12,10,20,21,32,43,141];
+const bignuim = numb.filter(numer=> numer>20)
+// console.log(bignuim);
+
+// find only take 1st condition 
+
+const numberee = [12,4,14,15,18,20]
+const findruse = numberee.find(num=>num%5 ===0)
+console.log(findruse);
