@@ -93,6 +93,13 @@ class instractor{
 
 
 const hasan = new instractor('hasan','uganda');
-console.log(hasan);
-hasan.starttime('9')
-hasan.quizmodule(30)
+// console.log(hasan);
+// hasan.starttime('9')
+// hasan.quizmodule(30)
+
+
+// Inheritance, extends class, super, class method
+const nums = [1, 2, 3, 4, 5];
+let outputs = nums.filter(n => n % 2);
+console.log(outputs);
+const friends = ["Moushumi", "Misha", "Manna", "mimi", "mahiya"];
