@@ -67,3 +67,32 @@ const bignuim = numb.filter(numer=> numer>20)
 const numberee = [12,4,14,15,18,20]
 const findruse = numberee.find(num=>num%5 ===0)
 console.log(findruse);
+
+// Class, constructor, method, create object from class
+
+
+class instractor{
+    name;
+    designation='web devoloper'
+    team= 'devoloper'
+    location;
+
+    constructor(name,location){
+        this.name=name;
+        this.location=location;
+    }
+    starttime(time){
+        console.log(`Strat time ${time}`)
+
+    }
+    quizmodule(module){
+        console.log( `craet module ${module}`);
+
+    }
+}
+
+
+const hasan = new instractor('hasan','uganda');
+console.log(hasan);
+hasan.starttime('9')
+hasan.quizmodule(30)
